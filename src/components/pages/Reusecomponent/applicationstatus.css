@@ -1,0 +1,87 @@
+
+
+.imageappliction{
+    height: 6.9rem;
+    width:   6.9rem;
+    background-color: aquamarine;
+    border-radius: 50%;
+    z-index: 10 !important;
+    position: absolute;
+    top: -3rem;
+
+    
+    
+
+}.studentIdbutton{height: auto;width: auto;padding: 3px 0.8rem;background-color: #65B047;color: white; border: none;border-radius: 0.6rem;position: relative;bottom: -2rem;}
+.divcenter{
+    display: flex;
+    justify-content: center !important;
+    
+}.gridtemplateapplicatio{
+    display: grid;
+    grid-template-rows: 5% auto;
+    width: auto;
+    gap: 0.2rem;
+    flex-direction: column;
+    /* display: flex;
+    justify-content: space-between; */
+}.applicationcard{
+    width: 100%;
+    margin-top: 1rem !important;
+}.applicationcard1{
+    margin-bottom: 1px;
+}.shortlistedcard{height: auto;background-color: rgb(39, 39, 243);font-size: 12px;
+    width: fit-content;
+    padding: 3px 0.5rem;
+    background-color: #2265D6; color: white; border: none;border-radius: 0.3rem;}
+   .applicationbtn-primary{padding: 0.2rem  !important;height: 2.3rem;}
+    .btngroupsameline{
+        width: auto;
+        gap: 10px;   
+    }
+.applicationid{
+    height: 1.5rem;font-size: 12px;
+    width: fit-content;
+    padding: 3px 0.8rem;
+    background-color: #2265D6;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+} .appliycard{
+     background-color: gray ;
+}.apllcationflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-img-top{
+    height: 8rem;
+    width: 8rem;
+    /* height: 6.9rem;
+    width:   6.9rem; */
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: -3rem !important;
+    border: 0.4rem solid #2563DE;
+
+}
+.margintopcss{
+    margin-top: -3rem;
+}
+
+
+.studentapplicatoncard-{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+
+}
+.linespace{
+    display: flex;
+    justify-content: space-between;
+}
+.boxcenter{
+    display: flex;
+    justify-content: center;
+}

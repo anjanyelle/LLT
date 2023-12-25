@@ -1,0 +1,55 @@
+
+
+.normal_cardtext{
+display: flex;
+flex-direction: column;
+}
+
+.normal_sameline{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+}
+.normal_sameline > i {
+    font-size: 20px;
+    text-align: center;
+    height: 3.1rem;
+    width: 3.1rem;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sameline1{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+.sameline1 > i {
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    background-color: rgb(175, 234, 234);
+    margin-top: 1rem;
+    
+}
+.card1b{
+    margin-top: 1rem;
+    height: auto;
+    width: auto;
+    background-color: aliceblue;
+    padding: 1rem;
+}
+
+.card1b > div > div > p{
+    margin-bottom: 2px;
+}
+.cardcolornormal{
+    background: radial-gradient(circle, #fef4ff 0%, #d7e0f8 100%);
+}

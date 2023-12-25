@@ -1,0 +1,77 @@
+.col>.cssfor {
+    background-color: #E6E9F8 !important;
+    margin-bottom: 0.6rem;
+    border-radius: 0.3rem;
+}   
+
+.col1 {
+    margin-left: 10px;
+    width: 14rem;
+}
+
+.searchcard-header {
+    background-color: #F4F4F4 !important;
+    border-bottom: 1px solid #eaeaea;
+    padding: 15px;
+    /* border-radius: 20px !important; */
+    border-top-left-radius: 19px  !important;
+    border-top-right-radius: 19px  !important;
+    height: 20vh;
+}.cardnormatsera{
+    width: 100%  !important;
+
+
+   background-color: transparent;
+}
+.addvancesearchselect{
+    width: 6rem !important;
+    height: 2rem !important;
+    /* font-size: 12px !important; */
+}
+.addvancesearchselect > option {
+    
+    font-size: 12px !important;
+}
+.addvancesearchselect > select {
+    margin-top: 2px;
+}
+
+.selectsearch{
+    font-size: 11px !important;
+}
+.card1c{
+    width: 78%;
+}.cardmatchsearch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.just-spacebet{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+}
+.formmin{
+    height: 1.5rem !important;
+    width: 5rem;
+    }
+.just-space{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+}
+.form-check  > label {
+    font-weight: bold;
+}
+.cssfor{
+    width: 60%;
+}
+.center1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

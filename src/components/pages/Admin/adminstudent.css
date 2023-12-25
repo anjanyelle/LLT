@@ -1,0 +1,132 @@
+
+
+.adminstudetviewcontainer{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.applicationviewcardgrid {
+
+    display: grid;
+    grid-template-columns: 49% 5px 45% auto;
+    flex-direction: row;
+    background-color: white;
+}
+
+
+.searchbox{
+    height: auto;
+    width: 2rem !important;display: flex;align-items: center;justify-content: center;
+    background-color: rgb(214, 210, 210);
+    border-radius: 4px;
+}
+.appcaltioncard {
+padding: 4px !important;
+}
+.gridsearchinput {
+    width: 100%;
+     height: 2.2rem;border-radius: 0.6rem;border: none;
+    background-color: transparent;outline: none;
+    
+}
+.gridsearchinputt {
+
+    width: 100%;
+    background-color: #EBE7E6 !important;
+    border: none;
+
+}
+tr:nth-child(even) {
+    background-color:  transparent  !important;
+}
+
+
+
+.cardnivercitcopmponet{
+    height: auto;
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;align-items: center;justify-content: space-between;
+
+}
+.cardnivercitcopmponet{
+    display: flex;
+    flex-direction: row;
+}
+.cardunvercityimage{
+    height: 3rem !important;
+
+
+    width: 3rem !important;
+    border-radius: 5px;
+    background-color: gray;
+
+
+    
+}
+
+
+.dataline{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    margin-left: 5px;
+
+}
+.containerv{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: gray;
+    box-shadow: 1px 1px 1px 1px gray;
+
+}
+.dataline > h6 {
+    color: rgb(46, 102, 253);
+}
+.dataline > p {
+    color: rgb(46, 102, 253);
+    margin-bottom: 4px !important;
+}
+.linecontener{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+
+.chatcontainer{   color: white !important;
+    height: 1.6rem !important;text-align: center;
+    width: 5rem !important;
+
+
+    background-color: rgb(92, 58, 243)  !important;
+    border-radius: 3px;
+ 
+}
+.editcontiner{
+    width: 1.6rem;
+    height: 1.6rem !important;
+    text-align: center;text-align: center;
+    background-color: rgb(80, 80, 80);
+    border-radius: 4px;
+    padding: auto;
+    color: white;
+}
+.moreconatiner{
+    width: 1.6rem;
+    height: 1.6rem !important;
+    text-align: center;display: flex;
+    background-color: rgb(80, 80, 80);justify-content: center;align-items: center;
+    border-radius: 4px;
+    /* padding:4px ; */
+    color: white;
+}

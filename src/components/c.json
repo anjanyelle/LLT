@@ -1,0 +1,712 @@
+[
+    {
+        "id": 15,
+        "name": "Animation",
+        "CategoryId": 3
+    },
+    {
+        "id": 16,
+        "name": "Applied Arts - Printing, Studio Art",
+        "CategoryId": 3
+    },
+    {
+        "id": 210,
+        "name": "Arts",
+        "CategoryId": 3
+    },
+    {
+        "id": 242,
+        "name": "Bakery and Pastry Arts",
+        "CategoryId": 3
+    },
+    {
+        "id": 232,
+        "name": "Car Interior Design ",
+        "CategoryId": 3
+    },
+    {
+        "id": 219,
+        "name": "Carpentry, Woodworking, Blacksmithing, Goldsmithing, Silversmithing, Ceramics",
+        "CategoryId": 3
+    },
+    {
+        "id": 195,
+        "name": "Creative Writing",
+        "CategoryId": 3
+    },
+    {
+        "id": 17,
+        "name": "Dance",
+        "CategoryId": 3
+    },
+    {
+        "id": 18,
+        "name": "Design - Fashion, Textile, Graphics, Product",
+        "CategoryId": 3
+    },
+    {
+        "id": 214,
+        "name": "English",
+        "CategoryId": 3
+    },
+    {
+        "id": 252,
+        "name": "Exhibition/Event",
+        "CategoryId": 3
+    },
+    {
+        "id": 19,
+        "name": "Film, Cinematography, Interactive Media, Multimedia",
+        "CategoryId": 3
+    },
+    {
+        "id": 20,
+        "name": "Fine Arts-Drawing, Painting, Sculpture",
+        "CategoryId": 3
+    },
+    {
+        "id": 235,
+        "name": "General Studies",
+        "CategoryId": 3
+    },
+    {
+        "id": 237,
+        "name": "Interdisciplinary Studies",
+        "CategoryId": 3
+    },
+    {
+        "id": 21,
+        "name": "Liberal Arts and Studies",
+        "CategoryId": 3
+    },
+    {
+        "id": 217,
+        "name": "Library",
+        "CategoryId": 3
+    },
+    {
+        "id": 22,
+        "name": "Music",
+        "CategoryId": 3
+    },
+    {
+        "id": 23,
+        "name": "Photography",
+        "CategoryId": 3
+    },
+    {
+        "id": 251,
+        "name": "Publishing",
+        "CategoryId": 3
+    },
+    {
+        "id": 24,
+        "name": "Theatre,Drama",
+        "CategoryId": 3
+    },
+    {
+        "id": 212,
+        "name": "Visual Arts",
+        "CategoryId": 3
+    },
+    {
+        "id": 236,
+        "name": "Artificial Intelligence",
+        "CategoryId": 5
+    },
+    {
+        "id": 209,
+        "name": "Business Analysis, IT Business Analytics",
+        "CategoryId": 5
+    },
+    {
+        "id": 238,
+        "name": "Computer Information Systems",
+        "CategoryId": 5
+    },
+    {
+        "id": 32,
+        "name": "Computer Science, Software Development",
+        "CategoryId": 5
+    },
+    {
+        "id": 33,
+        "name": "Computer Technology",
+        "CategoryId": 5
+    },
+    {
+        "id": 249,
+        "name": "Computer/ Game Programming",
+        "CategoryId": 5
+    },
+    {
+        "id": 34,
+        "name": "Computing",
+        "CategoryId": 5
+    },
+    {
+        "id": 35,
+        "name": "Customer Intelligence and Analytics",
+        "CategoryId": 5
+    },
+    {
+        "id": 45,
+        "name": "Cyber Security, Information Security",
+        "CategoryId": 5
+    },
+    {
+        "id": 36,
+        "name": "Cytotechnology",
+        "CategoryId": 5
+    },
+    {
+        "id": 37,
+        "name": "Data Science and Analytics",
+        "CategoryId": 5
+    },
+    {
+        "id": 207,
+        "name": "Game Design",
+        "CategoryId": 5
+    },
+    {
+        "id": 38,
+        "name": "Information Technology",
+        "CategoryId": 5
+    },
+    {
+        "id": 44,
+        "name": "Mobile Application",
+        "CategoryId": 5
+    },
+    {
+        "id": 39,
+        "name": "Mobile Communication",
+        "CategoryId": 5
+    },
+    {
+        "id": 40,
+        "name": "Multimedia",
+        "CategoryId": 5
+    },
+    {
+        "id": 41,
+        "name": "Networking",
+        "CategoryId": 5
+    },
+    {
+        "id": 253,
+        "name": "Programmer",
+        "CategoryId": 5
+    },
+    {
+        "id": 239,
+        "name": "Software Testing",
+        "CategoryId": 5
+    },
+    {
+        "id": 43,
+        "name": "Web Design, Web Applications",
+        "CategoryId": 5
+    },
+    {
+        "id": 46,
+        "name": "Adult, Organisational Learning and Leadership",
+        "CategoryId": 6
+    },
+    {
+        "id": 48,
+        "name": "Early Childhood Education, Primary Education ,Secondary Education",
+        "CategoryId": 6
+    },
+    {
+        "id": 49,
+        "name": "Education Assistance ",
+        "CategoryId": 6
+    },
+    {
+        "id": 47,
+        "name": "Education Counseling",
+        "CategoryId": 6
+    },
+    {
+        "id": 247,
+        "name": "Educational Training",
+        "CategoryId": 6
+    },
+    {
+        "id": 50,
+        "name": "Elementary Education",
+        "CategoryId": 6
+    },
+    {
+        "id": 53,
+        "name": "Gender Studies",
+        "CategoryId": 6
+    },
+    {
+        "id": 206,
+        "name": "Physical Education",
+        "CategoryId": 6
+    },
+    {
+        "id": 51,
+        "name": "Reading",
+        "CategoryId": 6
+    },
+    {
+        "id": 52,
+        "name": "Teacher Education Program",
+        "CategoryId": 6
+    },
+    {
+        "id": 55,
+        "name": "Aeronautical, Aerospace Engineering, Aviation Technology",
+        "CategoryId": 7
+    },
+    {
+        "id": 56,
+        "name": "Applied Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 54,
+        "name": "Architectural Engineering, Structural Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 57,
+        "name": "Automotive Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 58,
+        "name": "Aviation Technology",
+        "CategoryId": 7
+    },
+    {
+        "id": 59,
+        "name": "Biomedical Engineering ",
+        "CategoryId": 7
+    },
+    {
+        "id": 60,
+        "name": "Chemical Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 61,
+        "name": "Civil Engineering, Geotechnical Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 199,
+        "name": "Computer Engineering, Software Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 63,
+        "name": "Electrical and Electronic Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 64,
+        "name": "Electrical Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 240,
+        "name": "Electromechanical Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 62,
+        "name": "Electronics and Telecommunication Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 65,
+        "name": "Electronics Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 66,
+        "name": "Energy Systems Technology",
+        "CategoryId": 7
+    },
+    {
+        "id": 67,
+        "name": "Engineering Management",
+        "CategoryId": 7
+    },
+    {
+        "id": 68,
+        "name": "Environmental Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 227,
+        "name": "Industrial Design",
+        "CategoryId": 7
+    },
+    {
+        "id": 69,
+        "name": "Industrial Engineering, Process Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 70,
+        "name": "Instrumentation",
+        "CategoryId": 7
+    },
+    {
+        "id": 71,
+        "name": "Interdisciplinary Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 72,
+        "name": "Liquid Crystal Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 246,
+        "name": "Machine Learning",
+        "CategoryId": 7
+    },
+    {
+        "id": 73,
+        "name": "Manufacturing Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 74,
+        "name": "Marine Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 75,
+        "name": "Mechanical and Mechatronics Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 76,
+        "name": "Mechanical Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 77,
+        "name": "Mechatronics",
+        "CategoryId": 7
+    },
+    {
+        "id": 78,
+        "name": "Metallurgical Engineering, Material Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 223,
+        "name": "Micro electro-mechanical systems (MEMS)",
+        "CategoryId": 7
+    },
+    {
+        "id": 79,
+        "name": "Mining Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 80,
+        "name": "Nuclear Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 81,
+        "name": "Petroleum Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 82,
+        "name": "Plastics Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 83,
+        "name": "Power Engineering ",
+        "CategoryId": 7
+    },
+    {
+        "id": 208,
+        "name": "Product Design Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 42,
+        "name": "Robotics",
+        "CategoryId": 7
+    },
+    {
+        "id": 221,
+        "name": "Spatial Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 84,
+        "name": "System Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 220,
+        "name": "Technician",
+        "CategoryId": 7
+    },
+    {
+        "id": 85,
+        "name": "Telecommunications Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 86,
+        "name": "Textile Engineering",
+        "CategoryId": 7
+    },
+    {
+        "id": 87,
+        "name": "Environmental Science and Technology",
+        "CategoryId": 8
+    },
+    {
+        "id": 88,
+        "name": "Renewable Energy and Materials",
+        "CategoryId": 8
+    },
+    {
+        "id": 89,
+        "name": "Water Resources",
+        "CategoryId": 8
+    },
+    {
+        "id": 90,
+        "name": "Wild Life Ecosystem, Conservation",
+        "CategoryId": 8
+    },
+    {
+        "id": 91,
+        "name": "Acupunture",
+        "CategoryId": 9
+    },
+    {
+        "id": 92,
+        "name": "Addiction and Mental Health",
+        "CategoryId": 9
+    },
+    {
+        "id": 93,
+        "name": "Audiology - Speech, Speech pathology, Speech Therapy",
+        "CategoryId": 9
+    },
+    {
+        "id": 94,
+        "name": "Autism",
+        "CategoryId": 9
+    },
+    {
+        "id": 222,
+        "name": "Biomechanical devices",
+        "CategoryId": 9
+    },
+    {
+        "id": 259,
+        "name": "Cardiovascular Science",
+        "CategoryId": 9
+    },
+    {
+        "id": 95,
+        "name": "Clinical Lab ",
+        "CategoryId": 9
+    },
+    {
+        "id": 96,
+        "name": "Communicative Disorder",
+        "CategoryId": 9
+    },
+    {
+        "id": 97,
+        "name": "Dentistry, Dental Hygiene",
+        "CategoryId": 9
+    },
+    {
+        "id": 98,
+        "name": "Dietetics, Nutrition",
+        "CategoryId": 9
+    },
+    {
+        "id": 99,
+        "name": "Drug Development",
+        "CategoryId": 9
+    },
+    {
+        "id": 100,
+        "name": "Fitness, Physical Activity",
+        "CategoryId": 9
+    },
+    {
+        "id": 254,
+        "name": "Health Psychology",
+        "CategoryId": 9
+    },
+    {
+        "id": 200,
+        "name": "Health Science, Healthcare, Health Management",
+        "CategoryId": 9
+    },
+    {
+        "id": 101,
+        "name": "Kinesiology ",
+        "CategoryId": 9
+    },
+    {
+        "id": 102,
+        "name": "Medical Radiation Technology",
+        "CategoryId": 9
+    },
+    {
+        "id": 103,
+        "name": "Medical Science",
+        "CategoryId": 9
+    },
+    {
+        "id": 104,
+        "name": "Medical Technology ",
+        "CategoryId": 9
+    },
+    {
+        "id": 258,
+        "name": "Medicine",
+        "CategoryId": 9
+    },
+    {
+        "id": 204,
+        "name": "Midwifery",
+        "CategoryId": 9
+    },
+    {
+        "id": 105,
+        "name": "Nursing",
+        "CategoryId": 9
+    },
+    {
+        "id": 106,
+        "name": "Occupational Therapy",
+        "CategoryId": 9
+    },
+    {
+        "id": 257,
+        "name": "Optometry",
+        "CategoryId": 9
+    },
+    {
+        "id": 107,
+        "name": "Paradmeic Studies ",
+        "CategoryId": 9
+    },
+    {
+        "id": 108,
+        "name": "Pharmaceutical Sciences, Pharmacy",
+        "CategoryId": 9
+    },
+    {
+        "id": 109,
+        "name": "Physical Therapy, Physiotherapy",
+        "CategoryId": 9
+    },
+    {
+        "id": 110,
+        "name": "Psychiatric Nursing",
+        "CategoryId": 9
+    },
+    {
+        "id": 201,
+        "name": "Psychology",
+        "CategoryId": 9
+    },
+    {
+        "id": 111,
+        "name": "Public Heath",
+        "CategoryId": 9
+    },
+    {
+        "id": 112,
+        "name": "Radiologic Science",
+        "CategoryId": 9
+    },
+    {
+        "id": 113,
+        "name": "Recreation",
+        "CategoryId": 9
+    },
+    {
+        "id": 245,
+        "name": "Rehabilitation Assistant",
+        "CategoryId": 9
+    },
+    {
+        "id": 114,
+        "name": "Respiratory Care",
+        "CategoryId": 9
+    },
+    {
+        "id": 115,
+        "name": "Therapeutic Recreation",
+        "CategoryId": 9
+    },
+    {
+        "id": 116,
+        "name": "Therapist Assistant",
+        "CategoryId": 9
+    },
+    {
+        "id": 122,
+        "name": "Geography",
+        "CategoryId": 10
+    },
+    {
+        "id": 118,
+        "name": "History",
+        "CategoryId": 10
+    },
+    {
+        "id": 231,
+        "name": "Humanities",
+        "CategoryId": 10
+    },
+    {
+        "id": 241,
+        "name": "Indigenous Studies",
+        "CategoryId": 10
+    },
+    {
+        "id": 117,
+        "name": "Language and Literature",
+        "CategoryId": 10
+    },
+    {
+        "id": 250,
+        "name": "Museum and Gallery Studies",
+        "CategoryId": 10
+    },
+    {
+        "id": 119,
+        "name": "Philosophy, Aesthetics",
+        "CategoryId": 10
+    },
+    {
+        "id": 120,
+        "name": "Religious Studies",
+        "CategoryId": 10
+    },
+    {
+        "id": 121,
+        "name": "Theology",
+        "CategoryId": 10
+    }
+]

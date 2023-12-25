@@ -1,0 +1,7 @@
+
+.logofor{
+    height: 4rem !important;
+    width: auto !important;
+    object-fit: contain !important;
+    z-index: 2;
+}

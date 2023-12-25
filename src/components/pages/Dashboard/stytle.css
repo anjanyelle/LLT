@@ -1,0 +1,147 @@
+
+
+.lkl{
+
+}.linetag{height: 100%;background-color: aqua;width: 45%;position: relative;top: 0;left: -1.5rem;}
+
+
+
+.marginbuttom{
+    margin-bottom: 2px !important;
+    
+}
+.page-header {
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+.marginbuttom >i{
+    color: rgb(143, 143, 235);
+   
+}
+.carddatasameline > i{
+ height: 3.2rem;
+ width: 3.2rem;
+ border-radius: 50%;
+ background-color: white;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 20px;
+}
+.carddatasameline{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.carddataforuni > p {
+  margin-bottom: 2px;
+}
+.color{
+    color: rgb(100, 91, 217);
+}
+.btan{
+    margin-left: 10px;
+}
+.btnpos{
+    position: absolute;
+    right: 1rem;
+    background-color: transparent;
+}
+.AskOurExpert{
+    background-color: transparent;
+    color: rgb(86, 59, 238);
+    border: 2px solid blue;
+}
+
+.applicatoline{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+  }
+  .postionbutt{
+    position: absolute;
+    right: 2rem;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }.margintop{
+    margin-top: 1rem;
+  }
+.imagesmarigin{
+    margin-bottom: 0px !important;
+}
+
+.cardgrup{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;gap: 10px;
+  margin-top: 1.9rem;
+  padding: 1rem;
+}
+.gridcard{
+  display: grid;
+  grid-template-columns: 22% auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.icongrid{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background:radial-gradient(circle, #fef4ff 0%, #d7e0f8 100%);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card11{
+  border: 1px solid gray;
+  height: 6.5rem;
+
+}
+.alumin > p {
+  margin-bottom: 5px;
+}
+.cardabout{
+  margin-top: 2rem;
+   background-color: rgb(212, 223, 255);
+}
+.coures{
+  display: flex;
+  flex-direction: row;
+   gap: 12px;
+   flex-wrap: wrap;
+
+}
+.icongrid{
+  font-size: 19px;
+  text-align: center;
+}
+.card10 {
+  border: 1px solid gray;
+  height: auto;
+}
+.imageofuniversity{
+  height: 6rem;
+  width: auto;
+  object-fit: cover;
+}
+.icons{
+    color: rgb(146, 146, 219);
+}

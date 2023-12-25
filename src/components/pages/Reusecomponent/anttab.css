@@ -1,0 +1,274 @@
+
+
+
+
+.nav-tabs .nav-linkk1.active {
+    color: black;
+    background-color: #fff !important;
+    border-color: #dee2e6 #dee2e6;
+    border-top-left-radius:  10px !important;
+
+} .nav-tabs {
+    font-weight: 500;
+}
+.tab-content{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+.local-forms1 label {
+    font-size: 11px;
+    color: #ababab;
+    font-weight: 500;
+    position: absolute;
+    top: -7px;
+    left: 11px;
+}
+.chatcontainer {
+    height: 100% !important;
+    background-color: rgb(245, 245, 247)   !important;
+}
+.univercitychat{
+   /* background-color: #e5e3e3; */    
+   background-color: rgb(245, 245, 247);
+}
+.card-img-to{    height: 9rem;object-fit: cover;
+    border-radius: 10px;
+}
+.tabnavbar1{
+    border-radius: 20px !important;
+    box-shadow: 1px 1px 2px 2px rgb(236, 234, 234);
+}
+
+
+
+.form-control{
+    height: 2.2rem;
+}
+.grebacground{
+    height: 1.5rem;
+    
+    width: 4.4rem;
+   
+    border-radius: 2px;
+    background-color: gray;
+    margin-top: -10px;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    color: white;
+}
+.btnsubmit{
+    height: auto;
+    width: 4.2rem;
+    padding: 1px;
+    border-radius: 0.8rem;
+    text-align: center;
+    background-color: #336AE1;
+}
+.btngroup1{
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    width: 10rem;
+    padding: 1px;
+    /* border-radius: 3px; */
+    border-radius: 0.8rem;
+    background-color: #f7f8f8;
+    box-shadow: 1px 1px 2px 2px  #dee2e6;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.exambox{
+    height: 2rem;
+    width: auto;
+    border: 1px solid rgb(202, 199, 199);
+    
+    background-color: #F4F4F4;
+    display: grid;
+    font-weight: 400;
+    grid-template-columns: 19% 19% 19% 19%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;gap: 2px;
+}
+.eduexam{
+    height: auto;
+    font-weight: bold;
+    width: 5.9rem;
+    text-align: center;
+
+    
+    
+}.eduexam.active {
+  border: 1px solid #336AE1 !important;
+
+
+}
+.contan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.eduexam {
+    height: auto;
+    font-weight: bold;
+    width: 5.9rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxcontainer{
+    height: 2rem;
+    /* width: 8rem; */
+    width:14rem;
+    margin-top: -1.8rem;
+    background-color: gainsboro;
+    border-radius: 0.8rem;
+   display: flex;align-items: center;justify-content: center;font-weight: bold;
+    color: black;
+    z-index: 2;
+
+}
+
+
+.chatgridcomponet{
+    display: grid;
+    grid-template-columns: 18.9rem auto 6%;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.univercitywhisecontainer{
+    height: auto;
+    width: auto;
+}
+
+.univercitychatbox{
+    height: 60vh;
+    width: auto;
+    background-color: transparent;
+}
+
+.applicatinid{
+    height: 2rem;
+    width: auto;
+    background-color:  #FFFDFF;
+    display: flex;text-align: center;
+    align-items: center;box-shadow: 1px 1px 2px 2px rgb(225, 224, 224);border-radius: 4px;
+    justify-content: center;
+}
+.applicatinid > h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;margin-bottom: 0px;
+    font-size: 16px;
+}.applicatinid > h6 > {
+    /* margin: 0px 3px ; */
+    font-size: 16px !important;font-weight: 400 !important;
+}
+
+.universityspace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  space-between;
+}
+
+/* .cardchatbox{
+    display: flex;
+    border: 1px solid rgb(206, 206, 206) !important;
+    border-radius: 1rem !important;
+} */
+.card-headerchatbox{
+
+    background-color: #2C63E1 !important;
+    border-bottom: 1px solid #eaeaea;
+    padding: 8px !important;
+    color: white;
+    border-top-left-radius: 0.8rem !important;
+    border-top-right-radius: 0.8rem !important;
+
+
+
+
+}
+.cardchatbox{
+    display: flex;
+    border: 1px solid rgb(206, 206, 206) !important;
+    border-radius: 1rem !important;    
+    border-bottom-left-radius: 0px  !important;
+    border-bottom-right-radius: 0px  !important;   
+    height: 62vh;
+    margin-bottom: 2px;
+ 
+} .exambox11 > div {
+          border: 1 solid black;background-color: #e5e3e3;
+          height: 100%;
+          width: 100%;
+}
+.imagechat{  
+    position: relative;
+    top: -3.6rem !important;
+    left: -1rem;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.cardchatmall{
+
+    border: 1px solid rgb(216, 214, 214);
+    height: auto;
+    padding: 0.4rem 0.6rem;
+    width: 100% !important;
+    border-radius: 0px;
+}
+.examboxcurue {
+    height: 2rem;
+    width: 6.4rem;
+    background-color: #F4F4F4;
+    border-radius: 5px !important;
+
+}  .gridchatsuppot{
+    display: grid;
+    grid-template-columns: 33% auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.chatcontainer{
+    height: 100%;
+    background-color: rgb(233, 232, 232) !important;
+}
+.eduexamcur{
+    background-color: transparent !important;
+    border: none !important;
+}
+.univercitychatbacground{
+      background-color: #F5F5F7;
+      border: 0;
+      border-radius: 10px;
+      box-shadow: 0px 0px 31px 3px rgb(44 50 63 / 2%);
+      margin-bottom: 0px !important;
+}
+.carunivercity{
+        background-color: #F3F3F5   !important;
+}
+
+
+
+@media screen  and (max-width:490px) {
+    .exambox{
+        display: flex;
+        height: 2rem !important;
+        flex-wrap: wrap !important;
+
+    }
+}
+.carunivercity:hover{
+    background-color: #d9d9de   !important;
+}

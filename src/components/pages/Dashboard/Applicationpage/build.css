@@ -1,0 +1,32 @@
+
+
+.formdata{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    gap: 1rem !important;
+    padding: 1rem;
+}
+
+
+.experience{
+    padding: 10px;
+
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.martop{
+    margin-top: 2rem;
+}
+.formdata1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.graduate-courses{
+    margin: 1rem  1px;
+}
