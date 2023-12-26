@@ -3,7 +3,7 @@ const userisIn = "local";
 let API_BASE_URL =
   userisIn == "local"
     ? "http://llt-app-env-1.eba-nkkpwhvd.ap-south-1.elasticbeanstalk.com/api/v1/auth/"
-    : "https://fintech.oxyloans.com/oxyloans/v1/user/";
+    : "";
 
 const handleApiRequestBeforeLogin = async (
   method,
