@@ -12,7 +12,7 @@ export default function UniversityChatCard() {
 
        
   const [universitychat  , setuniversitychat]=useState({
-    recentchat:false,
+    recentchat:true,
   })
     return (
       <>
@@ -30,12 +30,12 @@ export default function UniversityChatCard() {
               <div className="page-header">
                 <div className="row align-items-center">
                   <div className="col">
-                    <h3 className="page-title">Program Finder </h3>
+                    <h3 className="page-title">My Applications </h3>
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
                         <Link to="/admindashboard">Dashboard</Link>
                       </li>
-                      <li className="breadcrumb-item active">Program Finder</li>
+                      <li className="breadcrumb-item active">My Applications</li>
                     </ul>
                   </div>
                 </div>
@@ -68,9 +68,9 @@ export default function UniversityChatCard() {
                             <p><i class="fa-solid fa-school fw-bold"></i> <strong>Status : Open</strong></p>
                         </div>
                         <div  className="boxcontainer1">
-                            <div className="boxcontai">
+                            <Link to="/chatsupport" ><div className="boxcontai">
                             <i class="fa-regular fa-comment"></i>  Chat With Us!
-                            </div>
+                            </div></Link>
                         </div>
                     </div>
                     <div className="chatcards">
@@ -85,9 +85,26 @@ export default function UniversityChatCard() {
                             <p><i class="fa-solid fa-school fw-bold"></i> <strong>Status : Open</strong></p>
                         </div>
                         <div  className="boxcontainer1">
-                            <div className="boxcontai">
+                            <Link to="/chatsupport"> <div className="boxcontai">
                             <i class="fa-regular fa-comment"></i>  Chat With Us!
-                            </div>
+                            </div></Link>
+                        </div>
+                    </div>
+                    <div className="chatcards">
+                        <div className="apliactionid">
+                                Application Id: 000001
+                        </div>
+                        <div className="cardunivercityname">
+                            <p><i class="fa-solid fa-school fw-bold"></i> <strong>MS Mechanical Engineering</strong></p>
+                            <p><i class="fa-solid fa-graduation-cap fw-bold"></i> New York Institute of technology</p>
+                            <p><i class="fa-solid fa-calendar-days fw-bold"></i> <strong>Year : 2020  </strong></p>
+                            <p><i class="fa-solid fa-floppy-disk fw-bold"></i> <strong>Intakes  : Spring</strong></p>
+                            <p><i class="fa-solid fa-school fw-bold"></i> <strong>Status : Open</strong></p>
+                        </div>
+                        <div  className="boxcontainer1">
+                            <Link to="/chatsupport"> <div className="boxcontai">
+                            <i class="fa-regular fa-comment"></i>  Chat With Us!
+                            </div></Link>
                         </div>
                     </div>
                     {/* <div className="chatcards">

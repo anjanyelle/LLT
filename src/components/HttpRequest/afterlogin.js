@@ -141,7 +141,28 @@ export const workexperience =async(data)=>{
   );
   return response;
 }
+export  const handlefavoriteapi=async(UniversityId)=>{
+  const    response = await  axios.post(
+    `http://llt-app-env-1.eba-nkkpwhvd.ap-south-1.elasticbeanstalk.com/api/v1/user-wishlist/${userId}/add-to-wishlist/${UniversityId}`,
+    {},
+    {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    }
+  );
 
+  
+  return   response;
+}
+// export const handlefavoriteapi= async(UniversityId)=>{
+//   const response = await  handleApiRequestAfterLogin(
+//      "POST",
+//      API_BASE_URL,
+//      `user-wishlist/${userId}/add-to-wishlist/${UniversityId}`,
+//    );
+//    return response;
+//  }
 export  const handprofileapi=async()=>{
   const    response = await axios.get("http://llt-app-env-1.eba-nkkpwhvd.ap-south-1.elasticbeanstalk.com/api/v1/master-data/profile-based-search?name=engineering&userId=11101&page=0&size=10")
 

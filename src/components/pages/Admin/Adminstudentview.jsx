@@ -101,12 +101,12 @@ export default function Adminstudentview() {
                 <div className="page-header">
                   <div className="row align-items-center">
                     <div className="col">
-                      <h3 className="page-title">Write To Us </h3>
+                      <h3 className="page-title">All Applications </h3>
                       <ul className="breadcrumb">
                         <li className="breadcrumb-item">
                           <Link to="/admindashboard">Dashboard</Link>
                         </li>
-                        <li className="breadcrumb-item active">ongoing Deals</li>
+                        <li className="breadcrumb-item active">Applications</li>
                       </ul>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ export default function Adminstudentview() {
 <h6>Active  </h6>
 </div>
 <div className='linecontener'>
-  <div className='chatcontainer'>Chat <i class="fa-regular fa-message"></i></div>
+<Link to="/chatsupport"><div className='chatcontainer'>Chat <i class="fa-regular fa-message"></i></div></Link>
   <div className='editcontiner'><i class="fa-regular fa-pen-to-square"></i></div>
   <div className='moreconatiner'>...</div>
 </div>
@@ -192,7 +192,7 @@ export default function Adminstudentview() {
 <h6>Active  </h6>
 </div>
 <div className='linecontener'>
-  <div className='chatcontainer'>Chat <i class="fa-regular fa-message"></i></div>
+  <div className='admindashchatcontainer'>Chat <i class="fa-regular fa-message"></i></div>
   <div className='editcontiner'><i class="fa-regular fa-pen-to-square"></i></div>
   <div className='moreconatiner'>...</div>
 </div>

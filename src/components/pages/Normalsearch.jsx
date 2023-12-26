@@ -164,7 +164,7 @@ useEffect(()=>{
                       setnormalsearch(false);
                     }}
                   >
-                    <h6>Addvance Search </h6>
+                    <h6>Advance Search </h6>
                   </Link>{" "}
                   <Link to="/quicksearch">
                     {" "}

@@ -120,24 +120,17 @@ const Sidebar = (props) => {
                     <span> Profile </span>
                     {/* <span className="menu-arrow"></span> */}
                   </Link>
-                </li>
+                </li>    
+
 
                 <li
-                  className={`${"/programfinder" === pathName ? "active" : ""}`}
-                >
-                  <Link to="/programfinder">
-                    <i className="fa-solid fa-gauge"></i>{" "}
-                    <span> Program Finder </span>
-                  </Link>
-                </li>
-                <li
                   className={`${
-                    "/applicationstatus" === pathName ? "active" : ""
+                    "/UniversityChatCard" === pathName ? "active" : ""
                   }`}
                 >
-                  <Link to="/applicationstatus">
+                  <Link to="/UniversityChatCard">
                     <i className="fa-solid fa-gauge"></i>{" "}
-                    <span> Application status </span>
+                    <span> My Applications  </span>
                   </Link>
                 </li>
 
@@ -146,14 +139,14 @@ const Sidebar = (props) => {
                 >
                   <Link to="/normalsearch">
                     <i className="fa-solid fa-user"></i>
-                    <span> Quick Apply </span>
+                    <span> Search Program </span>
                     {/* <span className="menu-arrow"></span> */}
                   </Link>
                 </li>
 
 
                 <li
-                  className={`${"/normalsearch" === pathName ? "active" : ""}`}
+                  className={`${"/chatsupport" === pathName ? "active" : ""}`}
                 >
                   <Link to="/chatsupport">
                     <i className="fa-solid fa-user"></i>
@@ -162,7 +155,7 @@ const Sidebar = (props) => {
                   </Link>
                 </li>
                 <li
-                  className={`${"/normalsearch" === pathName ? "active" : ""}`}
+                  className={`${"/applyloan" === pathName ? "active" : ""}`}
                 >
                   <Link to="/applyloan">
                      <i class="fa-solid fa-money-check-dollar"></i>
@@ -172,7 +165,7 @@ const Sidebar = (props) => {
                 </li>
 
                 <li
-                  className={`${"/normalsearch" === pathName ? "active" : ""}`}
+                  className={`${"/applyloan" === pathName ? "active" : ""}`}
                 >
                   <Link to="/build">
                        <i class="fa-solid fa-file-export"></i>

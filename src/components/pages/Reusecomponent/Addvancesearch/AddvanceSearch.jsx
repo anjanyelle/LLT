@@ -23,6 +23,7 @@ const Addvancesearch = () => {
     ieltsScore:false,
     pteScore:false,
     gmatScore:false,
+    detScore:false,
     pteScore:true,
     applicationFeeFlag:false,
     scholarshipAvailableFlag:false,
@@ -38,6 +39,13 @@ const Addvancesearch = () => {
       setuserdata({
         ...userdata,
         greScore:!userdata.greScore
+      })
+      
+    } if(value == "detScore"){
+      console.log(value)
+      setuserdata({
+        ...userdata,
+        detScore:!userdata.detScore
       })
       
     }
@@ -187,7 +195,7 @@ const handleclick=async()=>{
                       setnormalsearch(false);
                     }}
                   >
-                    <h6>Addvance Search </h6>
+                    <h6>Advance Search </h6>
                   </Link>{" "}
                   <Link to="/quicksearch">
                     {" "}
@@ -386,7 +394,15 @@ TOFEL
   <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"    onChange={(event) => onChange(event.target.checked, "pteScore")}  />
   <label class="form-check-label" for="flexCheckDefault">
-    PET
+    PTE
+  </label>
+</div>
+</div>
+  <div class="col-auto  addvancesearchselect"  >
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"    onChange={(event) => onChange(event.target.checked, "detScore")}  />
+  <label class="form-check-label" for="flexCheckDefault">
+    DET
   </label>
 </div>
   </div>
@@ -434,20 +450,20 @@ TOFEL
   <div class="row g-3 align-items-center">
 
   <div class="col-auto">
-    <label for="inputPassword6" class="col-form-label fw-bold">Without Application fee </label>       
+    <label for="inputPassword6" class="col-form-label fw-bold">Annual Tuition Fees </label>       
   </div>
   <div class="col-auto">
     <label for="inputPassword6" class="col-form-label">Min</label>
   </div>
   <div class="col-auto ">
-    <input type="password" id="inputPassword6" class="form-control formmin"   name="minYearlyTuitionFees" aria-describedby="passwordHelpInline" onChange={handlechan} />
+    <input type="text" id="inputPassword6" class="form-control formmin"   name="minYearlyTuitionFees" aria-describedby="passwordHelpInline" onChange={handlechan} />
   </div>
   
   <div class="col-auto">
     <label for="inputPassword6" class="col-form-label">Min</label>
   </div>
   <div class="col-auto ">
-    <input type="password" id="inputPassword6" class="form-control formmin"  name="maxYearlyTuitionFees" aria-describedby="passwordHelpInline"   onChange={handlechan}/>
+    <input type="text" id="inputPassword6" class="form-control formmin"  name="maxYearlyTuitionFees" aria-describedby="passwordHelpInline"   onChange={handlechan}/>
   </div><button  onClick={handleclick}>Search</button>
   </div>
 

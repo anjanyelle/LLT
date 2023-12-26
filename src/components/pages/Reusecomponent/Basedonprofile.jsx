@@ -39,11 +39,30 @@ export default function Basedonprofile({data}) {
                    <div className="sameline samelinee"  style={{gap:'5px'}}>
                     <p><i class="fa-solid fa-building-columns"></i> Intakes </p>
                     <span> <strong> {item.intakes} </strong></span>
+                       <div className="sameline samelinee"  style={{gap:'5px' , marginRight: '10px',marginLeft: '20px',}}>
+                    <p><i class="fa-solid fa-money-bills"></i> ApplicationFee </p>
+                    <span> <strong> {item.applicationFee} </strong></span>
 
                    </div>
+                   </div>
+                  
                    </div>
 
                    <div className="cardbox">
+                   <div className="card normalcardbox">
+                      <div className="diffline">
+                      <p><strong>GPA </strong></p>
+                          <hr></hr>
+                         <p><strong> {item.entryRequirements} </strong></p>
+                         </div>
+                    </div>
+                    <div className="card normalcardbox">
+                      <div className="diffline">
+                      <p><strong>GRE </strong></p>
+                          <hr></hr>
+                         <p><strong> {item.greScore} </strong></p>
+                         </div>
+                    </div>
                     <div className="card normalcardbox">
                       <div className="diffline">
                       <p><strong>IELTS </strong></p>
@@ -53,7 +72,7 @@ export default function Basedonprofile({data}) {
                     </div>
                     <div className="card normalcardbox">
                       <div className="diffline">
-                      <p><strong>IELTS </strong></p>
+                      <p><strong>TOEFL </strong></p>
                           <hr></hr>
                          <p><strong> {item.tofelScore} </strong></p>
                          </div>
@@ -61,14 +80,14 @@ export default function Basedonprofile({data}) {
 
                     <div className="card normalcardbox">
                       <div className="diffline">
-                      <p><strong>TOEFL </strong></p>
+                      <p><strong>DET </strong></p>
                           <hr></hr>
                          <p><strong> 2.0 </strong></p>
                          </div>
                     </div>
                     <div className="card normalcardbox">
                       <div className="diffline">
-                      <p><strong>CELPIP </strong></p>
+                      <p><strong>PTE </strong></p>
                           <hr></hr>
                          <p><strong> {item.pteScore} </strong></p>
                          </div>

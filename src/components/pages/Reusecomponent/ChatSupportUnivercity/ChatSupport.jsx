@@ -44,7 +44,7 @@ const ChatSupport = () => {
     console.log(chat);
   }, [chat , doc]);
 
-  const [activeTab, setActiveTab] = useState('link1');
+  const [activeTab, setActiveTab] = useState('active');
 
   const handleTabClick = (tab, event) => {
     event.preventDefault();
