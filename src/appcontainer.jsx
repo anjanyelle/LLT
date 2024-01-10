@@ -31,6 +31,7 @@ import SopTab from "./components/pages/Dashboard/Applicationpage/Buildsop/SopTab
 import UniversityChatCard from "./components/pages/Reusecomponent/UniversityChatCard/UniversityChatCard";
 import ChatSupport from "./components/pages/Reusecomponent/ChatSupportUnivercity/ChatSupport";
 import Adminstudentview from "./components/pages/Admin/Adminstudentview";
+import Waitingforapproval from "./components/pages/Admin/Waitingforapproval";
 
 
 
@@ -54,7 +55,7 @@ const appcontainer = () => {
                 <Route path="/universitychatcard"  component={UniversityChatCard} />
                 <Route path="/tabfilter"  component={TabFilter} />
         {/* `` */}
-  
+        <Route path="/waitingforapproval"  component={Waitingforapproval} /> 
         <Route path="/chatunivercity" component={ChatUnivercity} />  
         <Route path="/profile" component={ProfileTab} />   
         {/* <Route path="/profile" component={Profile} />      */}

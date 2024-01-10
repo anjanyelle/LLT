@@ -20,9 +20,15 @@
 
 .searchbox{
     height: auto;
-    width: 2rem !important;display: flex;align-items: center;justify-content: center;
-    background-color: rgb(214, 210, 210);
-    border-radius: 4px;
+    width: 2rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3c3cef;
+    border-radius: 50%;
+    margin-left: 4px;
+    border: none;
+    color: white;
 }
 .appcaltioncard {
 padding: 4px !important;
@@ -37,8 +43,19 @@ padding: 4px !important;
 
     width: 100%;
     background-color: #EBE7E6 !important;
+    padding: 2px 5px;
     border: none;
 
+}
+
+.admininputfiled{
+    width: 6rem;
+    border: none;
+    height: 2rem;
+    background-color: transparent;
+}
+.inputfiledwaiting{
+    width: 8rem;
 }
 tr:nth-child(even) {
     background-color:  transparent  !important;
@@ -90,10 +107,10 @@ tr:nth-child(even) {
 
 }
 .dataline > h6 {
-    color: rgb(46, 102, 253);
+    color: #2D4EAD;
 }
-.dataline > p {
-    color: rgb(46, 102, 253);
+.dataline > p {font-weight: 600;
+    color:   rgb(23, 22, 22);
     margin-bottom: 4px !important;
 }
 .linecontener{
@@ -112,6 +129,12 @@ tr:nth-child(even) {
     border-radius: 3px;
  
 }
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: none !important;
+    border-style: none !important;
+    border-width: 0 !important;
+}
 .editcontiner{
     width: 1.6rem;
     height: 1.6rem !important;
@@ -120,6 +143,15 @@ tr:nth-child(even) {
     border-radius: 4px;
     padding: auto;
     color: white;
+}
+/* .modelboxzindex{
+    z-index: 3;
+
+} */
+.chatcontaineradmin{color: white;
+    width: 3.9rem !important;text-align: center;border-radius: 0.3rem;
+
+    background-color:  #1F58C3 !important;
 }
 .moreconatiner{
     width: 1.6rem;
@@ -130,3 +162,41 @@ tr:nth-child(even) {
     /* padding:4px ; */
     color: white;
 }
+
+
+
+
+          .ant-table-tbody{
+            background-color: white   !important;
+          }
+
+          .chatcss {
+            width: 5rem;color: white;
+            height: 1.8rem !important;font-weight: 500;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #1F58C3 !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        } .linecontener{
+            width: 9rem; box-shadow: 0px 0px 0px 0px white !important; background-color: transparent  !;}
+          .chatcss:hover{
+            border-radius: 5px;text-align: center;
+            /* background-color: #1F58C3 !important; */
+            background-color: #e7e8e9 !important;
+            color: blue;
+          }
+
+          .ant-table-tbody>tr>td {
+            position: relative;
+            padding: 4px 4px !important;
+            overflow-wrap: break-word;
+        }
+       
+        .ant-table-thead>tr>th{
+            position: relative;
+            padding: 4px 4px !important;
+            overflow-wrap: break-word;
+        }
